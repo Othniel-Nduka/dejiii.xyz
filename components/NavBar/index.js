@@ -18,7 +18,6 @@ export const NavBar = () => {
         <ul className="left-links">
           <li>Resume</li>
           <li>Blog</li>
-          <li>About</li>
         </ul>
         {/* <Image
           src="/logo.svg"
@@ -31,9 +30,33 @@ export const NavBar = () => {
           alt="Dejiii | Abdulazeez Adeyiga | Frontend Developer"
         />
         <ul className="right-links">
-          <li>Instagram</li>
-          <li>LinkedIn</li>
-          <li>Mail</li>
+          <li>
+            <a
+              href="https://www.instagram.com/dejidev/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Instagram
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/abdulazeez-adeyiga/"
+              targer="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a
+              href="mailto:hellodejiii@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Mail
+            </a>
+          </li>
         </ul>
         <span className="menu-button" onClick={showMenu}>
           Menu ++

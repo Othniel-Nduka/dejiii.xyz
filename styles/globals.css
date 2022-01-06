@@ -113,7 +113,8 @@ h1 {
   margin-bottom: 1.2em;
 }
 
-.w-100 {
+.w-100,
+.desc-text {
   width: 100%;
 }
 

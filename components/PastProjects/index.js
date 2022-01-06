@@ -50,7 +50,7 @@ export const PastProjects = () => {
   return (
     <section className="project-wrapper">
       <p className="center-text large-green-text">Projects</p>
-      <h1 className="center-text medium-text mb-4">
+      <h1 className="center-text desc-text mb-4 w-100 mt-1">
         Some reputable projects I’ve worked on in the past
       </h1>
 
