@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 export const ProjectCard = ({ link, src, id, title, industry }) => {
   return (
     <div className="project-card">

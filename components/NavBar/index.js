@@ -1,5 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 import React, { useState } from "react";
-import Image from "next/Image";
+// import Image from "next/Image";
 
 export const NavBar = () => {
   const [visible, setVisible] = useState(false);
@@ -9,9 +10,6 @@ export const NavBar = () => {
       setVisible(!false);
     }
     return;
-    // else (
-    //   setVisible(false);
-    // )
   };
 
   return (
@@ -22,11 +20,15 @@ export const NavBar = () => {
           <li>Blog</li>
           <li>About</li>
         </ul>
-        <Image
+        {/* <Image
           src="/logo.svg"
           alt="Dejiii | Abdulazeez Adeyiga | Frontend Developer"
           width={100}
           height={100}
+        /> */}
+        <img
+          src="/logo.svg"
+          alt="Dejiii | Abdulazeez Adeyiga | Frontend Developer"
         />
         <ul className="right-links">
           <li>Instagram</li>
