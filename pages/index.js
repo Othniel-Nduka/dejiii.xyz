@@ -17,6 +17,7 @@ export default function Home() {
           content="Abdulazeez Adeyiga (Dejiii) is a Frontend Engineer highly skilled at developing scalable web and mobile applications."
         />
         <link rel="icon" href="/favicon.ico" />
+        <meta name="theme-color" content="#111111" />
       </Head>
 
       <main className="container">
