@@ -30,18 +30,6 @@ export const About = () => {
           create experience with their softwares through building useful and
           functional softwares.
         </p>
-        <b className="faded-text">Design</b>
-        <p className="faded-text">
-          What matters more is how I have helped tech companies and startups
-          create experience with their softwares through building useful and
-          functional softwares.
-        </p>
-        <b className="faded-text">Design</b>
-        <p className="faded-text">
-          What matters more is how I have helped tech companies and startups
-          create experience with their softwares through building useful and
-          functional softwares.
-        </p>
       </article>
     </section>
   );

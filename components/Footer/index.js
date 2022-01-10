@@ -1,11 +1,12 @@
+const year = new Date().getFullYear();
+
 /* eslint-disable @next/next/no-img-element */
 export const Footer = () => {
   return (
     <section className="footer-container">
       <div className="d-flex">
         <div className="left-section">
-          <img src="/logo.svg" alt="" />
-          <p className="about-text mt-2">Designed and Developed by me</p>
+          <img src="/logo.svg" alt="" className="logo" />
         </div>
         <div className="right-section">
           <p className="footer-links-header mb-3">Links</p>
@@ -48,25 +49,9 @@ export const Footer = () => {
           <div className="mt-1 small-text">Blog</div>
         </div>
       </div>
-      <p className="footer-text mt-5"> &#169; Copyright Dejiii 2022</p>
+      <hr className="mt-5 " />
+      <p className="about-text mt-2">Designed and Developed by me</p>
+      <p className="footer-text"> &#169; Copyright Dejiii {year}</p>
     </section>
   );
 };
-
-{
-  /* <li>
-
-</li>
-<li>
-
-</li>
-<li>
-<a
-  href="mailto:hellodejiii@gmail.com"
-  target="_blank"
-  rel="noreferrer"
->
-  Mail
-</a>
-</li> */
-}

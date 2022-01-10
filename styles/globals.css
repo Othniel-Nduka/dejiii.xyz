@@ -42,6 +42,7 @@ html,
 body {
   background-color: #111111;
   font-family: "Jost-Light", sans-serif;
+  user-select: none;
 }
 
 a {
@@ -132,11 +133,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   font-family: "Syncopate-Regular", sans-serif;
-  padding: 0.5em 0;
-}
-
-.menu-button {
-  display: none;
+  padding: 1em 0;
 }
 
 ul {
@@ -153,6 +150,10 @@ ul li {
 
 .right-links :not(:last-child) {
   margin-right: 24px;
+}
+
+.logo {
+  height: 50px !important;
 }
 
 /*WAVING ANIMATION  */
@@ -327,6 +328,12 @@ ul li {
   font-weight: bold;
 }
 
+.divider {
+  width: 100%;
+  display: none;
+  background-color: #727272 !important;
+}
+
 /* FONTS */
 @media (max-width: 768px) {
   .medium-text {
@@ -348,10 +355,6 @@ ul li {
   .left-links,
   .right-links {
     display: none;
-  }
-
-  .menu-button {
-    display: block;
   }
 
   .display-picture {
@@ -383,6 +386,10 @@ ul li {
     border-radius: 15px;
     padding: 0.5em;
     margin-bottom: 4em;
+  }
+
+  .d-flex {
+    display: block;
   }
 }
 
