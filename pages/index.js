@@ -1,15 +1,15 @@
-import Head from "next/head";
+import Head from 'next/head';
 import {
   About,
   Footer,
   LandingPage,
   PastProjects,
   NavBar,
-} from "../components";
+} from '../components';
 
 export default function Home() {
   return (
-    <div>
+    <div className="relative">
       <Head>
         <title>Dejiii | Abdulazeez Adeyiga | Frontend Engineer</title>
         <meta
@@ -33,6 +33,7 @@ export default function Home() {
       <footer className="footer-wrapper">
         <Footer />
       </footer>
+      {/* <div className="absolute">test</div> */}
     </div>
   );
 }

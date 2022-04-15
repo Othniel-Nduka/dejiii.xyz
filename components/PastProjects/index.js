@@ -1,48 +1,49 @@
-import { ProjectCard } from "./ProjectCard";
+import { Fade } from 'react-reveal';
+import { ProjectCard } from './ProjectCard';
 
 export const PastProjects = () => {
   const data = [
     {
       id: 1,
-      title: "NewHomes",
-      industry: "Real Estate",
-      path: "/newhomes.png",
-      link: "https://newhomes.ng",
+      title: 'NewHomes',
+      industry: 'Real Estate',
+      path: '/newhomes.png',
+      link: 'https://newhomes.ng',
     },
     {
       id: 3,
-      title: "DABA (Digital Abundance)",
-      industry: "EdTech",
-      path: "/daba.png",
-      link: "https://daba.school",
+      title: 'DABA (Digital Abundance)',
+      industry: 'EdTech',
+      path: '/daba.png',
+      link: 'https://daba.school',
     },
     {
       id: 4,
-      title: "Aorthar",
-      industry: "Software Development",
-      path: "/aorthar.png",
-      link: "https://aorthar.com",
+      title: 'Aorthar',
+      industry: 'Software Development',
+      path: '/aorthar.png',
+      link: 'https://aorthar.com',
     },
     {
       id: 5,
-      title: "Spottr",
-      industry: "Social Marketing",
-      path: "/spottr.png",
-      link: "https://thespottrapp.com/",
+      title: 'Spottr',
+      industry: 'Social Marketing',
+      path: '/spottr.png',
+      link: 'https://thespottrapp.com/',
     },
     {
       id: 6,
-      title: "Bitmasta",
-      industry: "FinTech",
-      path: "/bitmasta.png",
-      link: "https://bitmasta.io",
+      title: 'Bitmasta',
+      industry: 'FinTech',
+      path: '/bitmasta.png',
+      link: 'https://bitmasta.io',
     },
     {
       id: 7,
-      title: "Boundlesspay",
-      industry: "FinTech",
-      path: "/boundlesspay.png",
-      link: "https://boundlesspay.com/",
+      title: 'Boundlesspay',
+      industry: 'FinTech',
+      path: '/boundlesspay.png',
+      link: 'https://boundlesspay.com/',
     },
     // { id: 8, title: "Realwears", industry: "Fashion", path: "/realwears.png" },
   ];
@@ -50,9 +51,11 @@ export const PastProjects = () => {
   return (
     <section className="project-wrapper">
       <p className="center-text large-green-text">Projects</p>
-      <h1 className="center-text desc-text mb-4 w-100 mt-1">
-        Some reputable projects I’ve worked on in the past
-      </h1>
+      <Fade bottom={1000}>
+        <h1 className="center-text desc-text mb-4 w-100 mt-1">
+          Some reputable projects I’ve worked on in the past
+        </h1>
+      </Fade>
 
       <section className="project-display">
         {data.map(({ link, id, path, title, industry }) => (
@@ -68,9 +71,15 @@ export const PastProjects = () => {
 
       <p className="center-text large-green-text mt-2">Say Hello</p>
       <h1 className="center-text medium-text mb-4">
-        <a href="mailto:hellodejiii@gmail.com" target="_blank" rel="noreferrer">
-          hellodejiii@gmail.com
-        </a>
+        <Fade bottom delay={1000}>
+          <a
+            href="mailto:hellodejiii@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            hellodejiii@gmail.com
+          </a>
+        </Fade>
       </h1>
     </section>
   );

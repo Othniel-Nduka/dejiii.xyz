@@ -1,38 +1,38 @@
 @font-face {
-  font-family: "Syncopate-Regular";
-  src: url("../fonts/Syncopate-Regular.ttf");
+  font-family: 'Syncopate-Regular';
+  src: url('../fonts/Syncopate-Regular.ttf');
   font-weight: 400;
   font-display: swap;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Jost-Light";
-  src: url("../fonts/Jost-Light.ttf");
+  font-family: 'Jost-Light';
+  src: url('../fonts/Jost-Light.ttf');
   font-weight: 300;
   font-display: swap;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Jost-Regular";
-  src: url("../fonts/Jost-Regular.ttf");
+  font-family: 'Jost-Regular';
+  src: url('../fonts/Jost-Regular.ttf');
   font-weight: 300;
   font-display: swap;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Jost-Bold";
-  src: url("../fonts/Jost-Bold.ttf");
+  font-family: 'Jost-Bold';
+  src: url('../fonts/Jost-Bold.ttf');
   font-weight: 700;
   font-display: swap;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Jost-ExtraBold";
-  src: url("../fonts/Jost-ExtraBold.ttf");
+  font-family: 'Jost-ExtraBold';
+  src: url('../fonts/Jost-ExtraBold.ttf');
   font-weight: 800;
   font-display: swap;
   font-style: normal;
@@ -41,7 +41,7 @@
 html,
 body {
   background-color: #111111;
-  font-family: "Jost-Light", sans-serif;
+  font-family: 'Jost-Light', sans-serif;
   user-select: none;
 }
 
@@ -66,31 +66,31 @@ h1 {
 .small-text {
   font-size: 1.5em;
   line-height: 1.8em;
-  font-family: "Jost-Light";
+  font-family: 'Jost-Light';
   max-width: 90%;
 }
 
 .medium-text {
   font-size: 2em;
   line-height: 2.2em;
-  font-family: "Jost-Regular";
+  font-family: 'Jost-Regular';
 }
 
 .light-text {
   font-size: 2em;
   line-height: 2.2em;
-  font-family: "Jost-Light";
+  font-family: 'Jost-Light';
 }
 
 .large-green-text {
-  font-family: "Jost-ExtraBold";
+  font-family: 'Jost-ExtraBold';
   color: #37ff27;
   font-size: 5em;
 }
 
 .faded-text {
   color: #727272;
-  font-family: "Jost-Light";
+  font-family: 'Jost-Light';
 }
 
 /* Spacing */
@@ -123,16 +123,27 @@ h1 {
 .container {
   max-width: 90%;
   margin: 0 auto;
-  background-image: url("../public/bars.png");
+  background-image: url('../public/bars.png');
   background-size: cover;
 }
+
+/* Global */
+/* .relative {
+  position: relative;
+} */
+
+/* .absolute {
+  position: absolute;
+  display: none;
+
+} */
 
 /* NavBar */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: "Syncopate-Regular", sans-serif;
+  font-family: 'Syncopate-Regular', sans-serif;
   padding: 1em 0;
 }
 
@@ -235,7 +246,7 @@ ul li {
 .about-text {
   font-size: 1.5em;
   line-height: 1.8em;
-  font-family: "Jost-Light";
+  font-family: 'Jost-Light';
   max-width: 90%;
 }
 
@@ -248,7 +259,7 @@ ul li {
 .project-text {
   font-size: 1.5em;
   line-height: 1.8em;
-  font-family: "Jost-Light";
+  font-family: 'Jost-Light';
 }
 
 .project-display {
@@ -347,6 +358,8 @@ ul li {
   }
 }
 
+/* SOCAIL MEDIA LINKS */
+
 @media screen and (max-width: 1000px) {
   .container {
     background-size: contain;
@@ -391,11 +404,35 @@ ul li {
   .d-flex {
     display: block;
   }
+
+  .absolute {
+    /* display: block; */
+    top: 20px;
+    right: 0;
+  }
 }
 
 @media screen and (min-width: 2000px) {
   .container,
   .footer-container {
     max-width: 1400px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    margin: 0 auto;
+  }
+
+  .about-header {
+    color: #37ff27;
+    font-size: 2.5em;
+    line-height: 1.2em;
+    margin: 1em 0;
+  }
+
+  .social-icon {
+    width: 50px;
+    padidng: 20px;
   }
 }
