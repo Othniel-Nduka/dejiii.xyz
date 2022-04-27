@@ -372,6 +372,7 @@ ul li {
 
   .display-picture {
     width: 100%;
+    display: none;
   }
 
   .about-wrapper {

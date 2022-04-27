@@ -33,7 +33,6 @@ export default function Home() {
       <footer className="footer-wrapper">
         <Footer />
       </footer>
-      {/* <div className="absolute">test</div> */}
     </div>
   );
 }

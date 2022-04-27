@@ -21,7 +21,7 @@ export const Footer = () => {
           </div>
           <div className="mt-1 small-text">
             <a
-              href="https://www.instagram.com/dejidev/"
+              href="https://www.instagram.com/1st.deji/"
               target="_blank"
               rel="noreferrer"
             >
@@ -30,7 +30,7 @@ export const Footer = () => {
           </div>
           <div className="mt-1 small-text">
             <a
-              href="https://www.twitter.com/dejidev/"
+              href="https://www.twitter.com/1stdeji/"
               target="_blank"
               rel="noreferrer"
             >
