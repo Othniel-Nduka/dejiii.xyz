@@ -11,7 +11,7 @@ export const NavBar = () => {
           className="logo"
         />
         <ul className="right-links">
-          <li>
+          {/* <li>
             <a
               href="https://www.instagram.com/dejidev/"
               target="_blank"
@@ -19,7 +19,7 @@ export const NavBar = () => {
             >
               Instagram
             </a>
-          </li>
+          </li> */}
           <li>
             <a
               href="https://www.linkedin.com/in/abdulazeez-adeyiga/"
