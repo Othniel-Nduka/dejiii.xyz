@@ -39,7 +39,7 @@ export const Footer = () => {
           </div>
           <div className="mt-1 small-text">
             <a
-              href="https://docs.google.com/document/d/1DQIH17AclH65j_WEX0TPC10p2IYBQy4XqyXo3hbDwWQ/edit?usp=sharing"
+              href="https://drive.google.com/drive/u/0/my-drive"
               target="_blank"
               rel="noreferrer"
             >
